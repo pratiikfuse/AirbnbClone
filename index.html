@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <a id="maps" href="https://maps.google.co.in">Show Map</a>
+    <div class="top">
+        <div class="head-container">
+            <div class="logo">
+                <img id="logo" src="./assets/logo.png" alt="logo">
+            </div>
+            <div class="search">
+                <button id="search">
+                    Anywhere | Anyweek | Addguest
+                </button>
+                <svg id="search-logo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </div>
+            <div class="head-container-2">
+                <div class="button-1">
+                    <button id="button-1">
+                        airbnb your home
+                    </button>
+                </div>
+                <div class="button-2">
+                  <svg id="header-2-logo" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484-.08.08-.162.158-.242.234-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+                      </svg>
+                </div>
+                <div id="header-2-logo" class="button-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-container">
+            <div class="menu">
+                <img id="menu" src="./assets/navmenu/airplane-travel-heart-svgrepo-com.svg" alt="airoplane">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img id="menu" src="./assets/navmenu/airplane-svgrepo-com.svg" alt="airplane">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img  id="menu" src="./assets/navmenu/hotel-information-svgrepo-com.svg" alt="hotel">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                 <img id="menu" src="./assets/navmenu/hotel-bedroom-apartement-indoor-travel-svgrepo-com.svg" alt="hotel">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img id="menu" src="./assets/navmenu/trees-valley-svgrepo-com.svg" alt="trees">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img src="./assets/navmenu/mountain-svgrepo-com.svg" alt="mountain" id="menu">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img src="./assets/navmenu/beach-island-svgrepo-com.svg" alt="island" id="menu">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img src="./assets/navmenu/ocean.svg" alt="ocean" id="menu">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img src="./assets/navmenu/camel-1-svgrepo-com.svg" alt="camel" id="menu">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img src="./assets/navmenu/bus.svg" alt="bus" id="menu">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img src="./assets/navmenu/hot-air-balloon-svgrepo-com (1).svg" alt="balloon" id="menu">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img id="menu" src="./assets/navmenu/sailboat-svgrepo-com.svg" alt="boat" id="menu">
+            </div>
+            <div class="menu">
+                <!-- <svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 4h13.9a.09.09 0 0 1 .1.1V22a1 1 0 0 0 2 0V4.1A2.1 2.1 0 0 0 25.9 2H12a1 1 0 0 0 0 2zM29 28h-1v-2a1 1 0 0 0-2 0v2h-4v-5a1 1 0 0 0-1-1H11a1 1 0 0 0-1 1v5H6V4.1a.09.09 0 0 1 .1-.1H8a1 1 0 0 0 0-2H6.1A2.1 2.1 0 0 0 4 4.1V28H3a1 1 0 0 0 0 2h26a1 1 0 0 0 0-2zm-17-4h3v4h-3zm5 4v-4h3v4z"/><path d="M8 7a1 1 0 0 0 1 1h2a1 1 0 0 0 0-2H9a1 1 0 0 0-1 1zM17 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 6h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 10H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 10h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 14H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 14h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM11 18H9a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM17 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2zM23 18h-2a1 1 0 0 0 0 2h2a1 1 0 0 0 0-2z"/></svg> -->
+                <img id="menu" src="./assets/navmenu/breakfast-hot-drink-coffee-svgrepo-com.svg" alt="breakfast" id="menu">
+            </div>
+            <div class="menu">
+                <svg id="menu-next" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                  </svg>
+            </div>
+            <div class="menu filter">
+                <svg id="menu-filter-logo" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+                    <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"/>
+                  </svg>
+                  <p id="filter">filters</p>
+            </div>
+        </div>  
+    </div>
+    <div class="radio">
+        <p>Display total price <span style="color: gray;"> | include all fees before taxes </span></p>
+        <!-- <input  id="switch" type="checkbox"> -->
+    </div>
+    <div class="image-container">
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?hotel" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?pub" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>    
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?hills" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/?lakes" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>    
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?sea" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>    
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?resort" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>        
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?manali" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>    
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?kedarnath" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>    
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?pune" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>    
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?Japan" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p>Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>    
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?australia" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p style="font-weight: bolder;">Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>   
+        
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?fort" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p style="font-weight: bolder;">Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>  
+
+        <div class="images">
+            <img id="hotels" src="http://source.unsplash.com/1000x1000/?ajanta" alt="hotel">
+            <svg id="heart" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>
+              <div class="star-div-container">
+                <div class="star-div">
+                    <svg  class="star" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                      </svg>
+                </div>
+                <div class="star-div"><p id="rating">4.87</p></div>
+              </div>
+            <p style="font-weight: bolder;">Bamansur,India</p>
+        <p style="color:gray;">28 kilometers away</p>
+        <p style="color:gray;">23-28 July</p>
+        <p>Rs50,000 <span style="color:gray">night</span></p>
+        </div>  
+
+    </div>
+
+</body>
+</html>

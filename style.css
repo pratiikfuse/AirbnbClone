@@ -1,0 +1,160 @@
+.top{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color: white;
+}
+.head-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom:20px;
+}
+.head-container-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#logo{
+    width:100px;
+}
+
+.search{
+    position: relative;
+}
+#search{
+    background-color: white;
+    padding:15px;
+    padding-right: 60px;
+    font-size: 15px;
+    border-radius:30px ;
+    border: 1px solid lightgray;
+}
+
+#search-logo{
+    border: none;
+    width: 15px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color:rgb(243, 19, 57);
+    padding: 7px;
+    border-radius: 50% ;
+}
+
+#maps{
+    display: block;
+    padding: 10px;
+    width:80px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: rgb(12, 11, 11);
+    color: white;
+    font-weight: 700;
+    border-radius: 25px ;
+    text-decoration: none;
+    font-family:sans-serif;
+    position: fixed;
+    bottom:40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+}
+
+#button-1{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.menu-container{
+    margin-top:30px ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#menu{
+    width: 30px;
+    padding: 10px;
+    /* border: 1px solid lightgray; */
+    /* border-radius:10px; */
+}
+
+.filter{
+    width: 55px;
+    padding: 7px;
+    padding-right: 30px;
+    padding-left: 15px;
+    position:relative;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+#filter{
+    display: inline;
+    position: absolute;
+    top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.radio{
+    width: 700px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin:  auto;
+    margin-top:30px ;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.image-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    margin-top: 20px;
+}
+
+.images{
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    margin: 15px;
+    padding: 15px;
+    position: relative;
+}
+#heart{
+    color: white;
+    position:absolute;
+    top: 20px;
+    right:20px;
+}
+
+#hotels{
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+p{
+    margin:0px;
+    padding: 2px;
+}
+
+.star-div-container{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    position: absolute;
+    left:260px
+}
